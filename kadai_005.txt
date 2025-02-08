@@ -1,0 +1,27 @@
+"Step-1　ローカルリポジトリ「git_challenge」の作成”　
+
+	PS C:\Users\kaihi\Desktop> mkdir git_challenge
+
+"Step-2,3　テキストファイル「hello_world.text作成と2回の変更コミット”
+
+	PS C:\Users\kaihi\Desktop> cd git_challenge
+	PS C:\Users\kaihi\Desktop\git_challenge> git add hello_world.txt
+ 		1 file changed, 1 insertion(+)
+ 		create mode 100644 hello_world.txt
+	PS C:\Users\kaihi\Desktop\git_challenge> git add hello_world.txt
+	PS C:\Users\kaihi\Desktop\git_challenge> git commit -m "2回目　こんにちは　世界！　追加"
+		[main 985689c] 2回目　こんにちは　世界！　追加
+ 		1 file changed, 2 insertions(+), 1 deletion(-)
+
+"Step-4　「hello_world.txt」の変更履歴
+
+	PS C:\Users\kaihi\Desktop\git_challenge> git log
+	commit 985689cd229e1c11e12431178336328d1cc1518b (HEAD -> main)
+	Author: SakaiT3 <071105hiroto@gmail.com>
+	Date:   Sat Feb 8 08:59:49 2025 +0900
+
+   		 2回目　こんにちは　世界！　追加
+
+	commit 3210a3dc20862653c268f2b93189a81d20035b25
+	Author: SakaiT3 <071105hiroto@gmail.com>
+	Date:   Sat Feb 8 08:56:14 2025 +0900
